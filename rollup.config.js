@@ -26,7 +26,7 @@ const output = (name) => {
 * Version: ${pkg.version}
 * https://easepick.com/
 * Copyright ${(new Date()).getFullYear()} Rinat G.
-* 
+*
 * Licensed under the terms of GNU General Public License Version 2 or later. (http://www.gnu.org/licenses/gpl.html)
 */`,
       globals(id) {
@@ -91,6 +91,7 @@ export default [
   getPackageConfig('time-plugin'),
   getPackageConfig('kbd-plugin'),
   getPackageConfig('amp-plugin'),
+  getPackageConfig('mselect-plugin'),
 
   // @easepick/bundle
   {
